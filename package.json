@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha 'test.js'",
     "devStart": "nodemon app.js"
   },
   "author": "",
@@ -14,6 +14,7 @@
     "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
     "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.1",
@@ -23,6 +24,7 @@
     "jsonwebtoken": "^8.5.1",
     "loader": "^2.1.1",
     "log4js": "^6.4.5",
+    "mocha": "^9.2.2",
     "moment-timezone": "^0.5.34",
     "mongoose": "^5.9.15",
     "morgan": "^1.10.0",
